@@ -1,0 +1,228 @@
+const generate = document.querySelector('#Gbutton');
+generate.addEventListener('click', () => {
+const appalt = document.querySelector('#appalt').value;
+const appname = document.querySelector('#appname').value;
+const applogo = document.querySelector('#applogo').value;
+const appPack = document.querySelector('#appPack').value;
+const apppubl = document.querySelector('#apppubl').value;
+const appcat = document.querySelector('#appcat').value;
+const appsize = document.querySelector('#appsize').value;
+const appdow = document.querySelector('#appdow').value;
+const appver = document.querySelector('#appver').value;
+const appabout = document.querySelector('#appabout').value;
+const appmod = document.querySelector('#appmod').value;
+const code = document.querySelector('#Code');
+const ppcode = 
+      `
+<!--👇👇Thumbnail & download👇👇-->
+
+
+  <table class="tr-caption-container">
+  <tbody>
+    <tr>
+      <td>
+        <img alt="${appname} Mod Apk" class="full" src="${appalt}" />
+      </td>
+    </tr>
+    <tr>
+      <td class="tr-caption">${appname} </td>
+    </tr>
+    
+
+  </tbody>
+</table>
+
+
+
+<div class="dl-app">
+<!--👇👇logo👇👇-->
+       <div class="img-app">
+        <img alt="${appname} ${appPack} ${appmod}" src="${applogo}" />
+        </div>
+       <div class="jdl-app">
+          <span class="nm-app">${appname}</span>
+          <span class="ur-app">Mod : ${appmod}</span>
+          
+         <!--[replace ( # ) with your download link]-->
+         
+           
+           <a class="button" href="https://play.google.com/store/apps/details?id=${appPack}&amp;ref=th3apks.blogspot.com" target="_blank"><i class="icon dl"></i>PlayStore</a>
+</div>         
+            
+        </div>
+         
+    
+<!--Thumbnail & download-->
+
+
+
+<!--👇👇Details👇👇-->
+  <div>
+    <div><small>Name : </small> <span class="apName">${appname} </span></div>
+    
+    <div><small>Package Name : </small> <span><a href="https://play.google.com/store/apps/details?id=${appPack}&amp;ref=th3apks.blogspot.com" rel="noopener" target="_blank">${appPack}</a></span></div>
+  </div>
+  
+  <div><small>Publisher: </small> <span><a href="https://th3apks.blogspot.com/search?q=${apppubl}" rel="noopener" target="_blank">${apppubl}</a></span></div>
+    <div><small>Category : </small> <span><a href="https://th3apks.blogspot.com/search/label/${appcat}" rel="noopener" target="_blank">${appcat}</a></span></div>
+  
+  <div>
+    <div><small>Version : </small> <span class="apVersi" data-text="APK">V${appver}</span></div>
+    
+    <div><small>Size : </small> <span class="apSize">${appsize}</span></div>
+  </div>
+  
+  <div>
+    <div><small>Price : </small> <span class="apPrice">Free</span></div>
+    <div><small>Requires : </small> <span class="apReq">Android 4+</span></div>
+  </div>
+  
+  <div class="s">
+    <div><small>MOD Features : </small> <span class="apMod" data-text="MOD">${appmod}</span></div>
+    <div><small>Link Download : </small> <span>Direct link</span></div>
+  </div>
+  
+  
+  
+
+<!-- Related Post in Article -->
+<details class="sp toc s1" open="">
+  <summary data-show="Show all" data-hide="Hide all">Related Apps</summary>  
+  <div class="toC" id="aRel"></div>
+</details>
+
+
+<div style="text-align: center;">
+
+<!-- اعلان 300x250 -->
+
+
+  </div>  
+
+<!--👇👇slider👇👇-->
+<div class="AtsliderIMG">
+<div class="slides">
+
+  <!--[slide 1]-->
+  <div class="AtsliderIMG-content"><img aria-hidden="false" alt="${appname}   ${appPack} ${appmod}"  src="#image1" /></div>
+
+ <!--[slide 2]-->
+   <div class="AtsliderIMG-content"><img aria-hidden="false" alt="${appname}   ${appPack} ${appmod}"  src="#image2" /></div>
+
+ <!--[slide 3]-->
+   <div class="AtsliderIMG-content"><img aria-hidden="false" alt="${appname}   ${appPack} ${appmod}"  src="#image3" /></div>
+ 
+ <!--[slide 4]-->
+   <div class="AtsliderIMG-content"><img aria-hidden="false" alt="${appname}   ${appPack} ${appmod}"  src="#image4" /></div>
+ </div>
+
+<!--👇👇[ ADS ]👇👇-->
+<div style="text-align: center;">
+
+<!-- اعلان 300x250 -->
+
+
+  </div>  
+
+<!--👆👆[ ADS ]👆👆-->
+
+<h2>Introduce about ${appname} </h2>
+<p>${appabout} </p>
+
+
+  
+
+        
+
+
+<!--[👇👇 download 👇👇 ]-->
+<!--👇👇Available Versions👇👇-->
+<h2 class="title n">Available Mod Versions of ${appname} </h2>
+<div style="text-align: center;">
+ <!-- روابط التحميل منبثقة-->
+<button class="btneffect" type="button">Diwnload ${appname}</button>
+<div id="abdoutech-download">
+<div class="abdoutech-downloadbg">
+</div>
+<div class="container">
+<div class="count_direct_link">
+<div class="countdownnumber">
+<div class="circle">
+<div class="count">
+10</div>
+<div class="l-half">
+</div>
+<div class="r-half">
+</div>
+</div>
+</div>
+<div class="directdownloadlink">
+</div>
+</div>
+
+  
+<div style="text-align: center;">
+
+<!-- اعلان 300x250 -->
+
+  </div>  
+  
+  
+  <!-- روابط التحميل -->
+<div class="anotherserver">
+<ul>
+
+   <!-- رابط 1-->
+  
+<li> 
+<a href="https://play.google.com/store/apps/details?id=${appPack}&amp;ref=th3apks.blogspot.com" title="${appname} V"><i aria-hidden="true" class="fa fa-cloud-download"></i><span>playStore</span>
+</a>
+</li>
+  
+  <!-- رابط 2-->
+<li> 
+<a href="/#" title="${appname} V"><i aria-hidden="true" class="fa fa-cloud-download"></i><span>${appname}</span>
+</a>
+</li>
+  
+ <!-- رابط 3-->  
+<li> 
+<a href="${appdow}" title="${appname} V${appver}"><i aria-hidden="true" class="fa fa-cloud-download"></i> <span>${appname} </span>
+</a>
+
+</li>
+    
+<!-- روابط التحميل -->
+</ul>
+<div class="clearfix">
+</div>
+</div>
+</div>
+</div>
+<button class="btnclose" type="button"><i class="fa fa-window-close"></i>
+</button>
+<!-- روابط التحميل منبثقة-->
+</div>
+
+    </div>
+
+
+<!------- 👇👇Tag blogger 👇👇-------->
+<p>Keywords:<sub>( searches in Google))</sub></p>
+<span class="searchrelated" itemprop="keywords">download ${appname}  mod apk</span>
+<span class="searchrelated" itemprop="keywords">${appname}  mod apk</span>
+<span class="searchrelated" itemprop="keywords">${appname}  ${appmod} free download</span>
+<span class="searchrelated" itemprop="keywords">${appname}   ${appPack} ${appmod}  </span>
+<span class="searchrelated" itemprop="keywords">${appPack} mod apk</span>
+<!------- 👆👆 tag and 👆👆-------->
+
+
+    
+      
+      
+
+
+
+`
+
+;code.textContent=ppcode})
